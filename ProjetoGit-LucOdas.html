@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>👨‍💻 Lucas Odas | Criando Coisas com Propósito</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffe259, #ffa751);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+      animation: fundo 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes fundo {
+      0% { background: linear-gradient(135deg, #ffe259, #ffa751); }
+      50% { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+      100% { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+    }
+
+    .container {
+      background-color: #ffffffdd;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      animation: flutuar 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes flutuar {
+      from { transform: translateY(0); }
+      to { transform: translateY(-8px); }
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .emoji {
+      font-size: 2.5rem;
+    }
+
+    .intro {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 90%;
+      padding: 12px;
+      margin: 10px auto;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+      font-size: 16px;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #ffa751;
+    }
+
+    button {
+      padding: 12px 25px;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #e75b4c;
+      transform: scale(1.05);
+    }
+
+    #resposta {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .assinatura {
+      margin-top: 15px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="emoji">👨‍💻🚀🎨</div>
+    <h1>Lucas Odas</h1>
+    <p class="intro">
+      Desenvolvedor em formação, explorador de ideias  , apaixonado por transformar códigos em experiências com alma.  
+      Acredito que tecnologia de verdade é aquela que se conecta com pessoas 🤝💡
+    </p>
+
+    <h3>🔍 Teste interativo</h3>
+    <p>Digite seu nome e um número qualquer só por diversão 👇</p>
+
+    <input type="text" id="nome" placeholder="Seu nome aqui...">
+    <input type="number" id="numero" placeholder="Escolha um número mágico...">
+    <button onclick="responder()">Mostrar mensagem ✨</button>
+
+    <p id="resposta"></p>
+
+    <div class="footer">
+      Feito com ❤️ por Lucas Odas<br>
+      <span class="assinatura">“Se é pra fazer, que seja com intenção.”</span>
+    </div>
+  </div>
+
+  <script>
+    function responder() {
+      const nome = document.getElementById("nome").value.trim();
+      const numero = document.getElementById("numero").value;
+      const resposta = document.getElementById("resposta");
+
+      if (!nome || !numero) {
+        resposta.innerHTML = "😅 Preencha os dois campos pra continuar...";
+        return;
+      }
+
+      const frases = [
+        `🎉 Olá ${nome}! Seu número da sorte é ${numero}, e hoje é um ótimo dia pra criar algo incrível.`,
+        `🔥 ${nome}, ${numero} é um número poderoso. Use ele pra impulsionar suas ideias hoje!`,
+        `💡 ${nome}, se você somar criatividade com ${numero}, o resultado é: inovação com propósito.`,
+        `🌟 ${nome}, ${numero} significa transformação — bora fazer acontecer!`
+      ];
+
+      const random = Math.floor(Math.random() * frases.length);
+      resposta.innerHTML = frases[random];
+    }
+  </script>
+
+</body>
+</html>
