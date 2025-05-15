@@ -9,7 +9,7 @@
 - 🧂 **1 pitada de sal**  
 - ❄️ **Açúcar de confeiteiro para polvilhar (opcional)**
 
----
+-
 
 ## 👨‍🍳 Modo de Preparo:
 1. 🥄 Misture a **manteiga e o açúcar** até obter um creme claro e fofo.  
