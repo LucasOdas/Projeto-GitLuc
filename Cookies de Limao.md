@@ -1,43 +1,29 @@
-# Biscoito de Limão
+# 🍪🍋 Cookies de Limão Amanteigados
 
-Uma receita simples e deliciosa de biscoito com um toque cítrico.
-
----
-
-## Ingredientes
-
-- 2 xícaras de farinha de trigo
-- 1/2 xícara de açúcar
-- 1/2 xícara de manteiga (temperatura ambiente)
-- 1 ovo
-- Raspas de 1 limão
-- Suco de 1/2 limão
-- 1 colher de chá de fermento em pó
-- 1 pitada de sal
+## 📝 Ingredientes:
+- 🧈 **200g de manteiga** (sem sal, em temperatura ambiente)  
+- 🍬 **1/2 xícara de açúcar**  
+- 🍋 **Raspas de 1 limão** (tahiti ou siciliano)  
+- 🍋 **2 colheres (sopa) de suco de limão**  
+- 🌾 **2 e 1/4 xícaras de farinha de trigo**  
+- 🧂 **1 pitada de sal**  
+- ❄️ **Açúcar de confeiteiro para polvilhar (opcional)**
 
 ---
 
-## Modo de Preparo
-
-1. Pré-aqueça o forno a 180°C.
-2. Em uma tigela, misture a manteiga e o açúcar até formar um creme claro.
-3. Adicione o ovo, as raspas e o suco de limão. Misture bem.
-4. Acrescente a farinha, o fermento e o sal aos poucos, até formar uma massa homogênea.
-5. Modele bolinhas e disponha em uma assadeira forrada com papel manteiga.
-6. Achate levemente os biscoitos com um garfo.
-7. Asse por cerca de 15 minutos ou até as bordas ficarem douradas.
-8. Deixe esfriar antes de servir.
-
----
-
-## Sugestão
-
-Polvilhe açúcar de confeiteiro ou faça uma cobertura com suco de limão e açúcar.
+## 👨‍🍳 Modo de Preparo:
+1. 🥄 Misture a **manteiga e o açúcar** até obter um creme claro e fofo.  
+2. 🍋 Adicione as **raspas e o suco de limão**. Misture bem.  
+3. 🌾 Acrescente a **farinha de trigo** e o **sal**, aos poucos, até formar uma massa lisa.  
+4. 📦 Envolva a massa em filme plástico e leve à **geladeira por 30 minutos**.  
+5. 🔥 Pré-aqueça o forno a **180 °C**.  
+6. 🙌 Modele bolinhas ou abra a massa com um rolo e corte com cortadores.  
+7. 📄 Coloque os biscoitos numa forma forrada com **papel manteiga**.  
+8. ⏱️ Asse por **12 a 15 minutos**, até dourar levemente nas bordas.  
+9. ❄️ Deixe esfriar e **polvilhe com açúcar de confeiteiro** (se quiser).
 
 ---
 
-*Rendimento:* Cerca de 25 biscoitos  
-*Tempo de preparo:* 30 minutos# Biscoito de Limão
-
-Uma receita simples e deliciosa de biscoito com um toque cítrico.
+## 💡 Dica Extra:
+Para um aroma mais marcante, use 🍋 **limão siciliano** ou adicione algumas gotas de **essência de limão**.
 
